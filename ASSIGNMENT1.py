@@ -43,7 +43,7 @@ def tree(branchLen, t):
         t.pensize(random.uniform((branchLen + 5) / 4 - 2, (branchLen + 6) / 4 + 5))
         t.down()
         t.forward(branchLen)
-        # 以下递归
+        # 下面递归
         ang = random.uniform(15, 45)
         t.right(ang)
         tree(branchLen - random.uniform(12, 16), t)  # 随机决定减小长度
@@ -56,7 +56,7 @@ def tree(branchLen, t):
 myWin = turtle.Screen()
 t = turtle.Turtle()
 t.hideturtle()
-t.speed(1500)
+t.speed(1250)
 t.left(90)
 t.up()
 t.backward(200)
