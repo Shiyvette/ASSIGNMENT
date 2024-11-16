@@ -5,7 +5,7 @@ import time
 import os
 
 print('check')
-image_path = "/home/nvidia/jetson-inference/data/images/cat_1.jpg"
+image_path = "/home/nvidia/jetson-inference/data/images/humans_1.jpg"
 if not os.path.isfile(image_path):
     print("Error: Image file does not exist.")
     exit()
